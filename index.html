@@ -26,5 +26,27 @@
             <a href="#" class="btn">Our Menu</a>
         </div>
     </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In debitis, voluptatibus, delectus qui dolorum iste nam vero aperiam aut, rerum hic eveniet illo quidem. Cupiditate perferendis totam sed corrupti nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatibus, minus a cum unde quo ipsum dolores. Modi mollitia est eaque harum expedita officia nobis laudantium nisi, assumenda quas saepe?<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem labore sequi esse, incidunt est eveniet illo ipsa repellendus repudiandae maiores ut quisquam fugiat sunt quae distinctio voluptatibus in inventore quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vitae facilis dignissimos aspernatur sequi hic pariatur tempora suscipit voluptates quod distinctio non ipsum aut, odio dolorum nihil illo ut unde.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img1.jpg" alt="image1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS funtion for logo and NAV -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
